@@ -82,5 +82,5 @@ Now, whenever you press your chosen hotkey from any application, the Speakpaste 
 You can tune the application's behavior by editing the following files:
 
 *   `recorder.py`: Change `SILENCE_DURATION_S` to adjust how many seconds of silence are needed to stop a recording.
-*   `transcriber.py`: Change `MODEL_SIZE` to use a different model (e.g., "tiny", "base", "medium"). Larger models are more accurate but slower and use more memory. The base model seems to be effective, but adjust to your needs and system resources. 
+*   `transcriber.py`: Change `MODEL_SIZE` to use a different model (e.g., "tiny", "base", "medium"). Larger models are more accurate but slower and use more memory. The small model seems to be quite effective, but adjust to your needs and system resources. 
 ```
